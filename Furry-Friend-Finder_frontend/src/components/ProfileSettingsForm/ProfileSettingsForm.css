@@ -1,0 +1,43 @@
+.ProfileSettingsformCon {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: fit-content;
+  width: 50%;
+  margin: auto;
+  border: 2px solid #333;
+  border-radius: 15px;
+  margin-top: 20px;
+  background-color: #fff;
+  /* Set background color as per your preference */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+}
+
+.ProfileSettingslinesCon {
+  display: flex;
+  flex-direction: column;
+}
+
+.bioInputArea {
+  resize: none;
+  margin-top: 25px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .ProfileSettingsformCon {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .ProfileSettingsformCon {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .ProfileSettingsformCon {
+    width: 90%;
+  }
+}

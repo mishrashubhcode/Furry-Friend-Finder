@@ -1,0 +1,67 @@
+.LoginformCon {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  /* Adjusted width for better responsiveness */
+  padding: 15px;
+  height: auto;
+  /* Change to auto to accommodate variable content */
+  justify-content: space-around;
+  /* Improved spacing */
+  background-color: #fff;
+  /* White background */
+  border: 1px solid #ccc;
+  /* Border for better visibility */
+  border-radius: 8px;
+  /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Box shadow for a subtle effect */
+}
+
+.LoginlinesCon {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  /* Adjusted margin for separation */
+}
+
+/* Additional styling for input fields */
+.LoginlinesCon input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.LoginHeader {
+  padding-bottom: 10px;
+  /* Adjusted padding for better spacing */
+  font-size: 20px;
+  /* Slightly reduced font size */
+  font-weight: bold;
+  color: #333;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Styling for the submit button */
+.buttonGroup button {
+  padding: 10px;
+  background-color: #4caf50;
+  /* Green color */
+  color: #fff;
+  /* White text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  /* Smooth transition on hover */
+}
+
+.buttonGroup button:hover {
+  background-color: #45a049;
+  /* Darker green on hover */
+}

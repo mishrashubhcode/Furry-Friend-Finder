@@ -1,0 +1,36 @@
+.petSizeInputs {
+  width: 70%;
+  margin: auto;
+}
+
+.formCon {
+  width: 70%;
+  margin: auto;
+}
+
+.searchOptions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.searchBtn {
+  text-align: center;
+  min-width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #4CAF50;
+  /* Green color */
+  color: #fff;
+  /* White text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.searchBtn:hover {
+  background-color: #45a049;
+  /* Darker green color on hover */
+}

@@ -1,0 +1,14 @@
+.MuiTable-root.userTableCon {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  background-color: #fff;
+  /* Set background color as per your preference */
+  border: 2px solid #333;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Add additional styling as needed for the table rows, header, etc. */

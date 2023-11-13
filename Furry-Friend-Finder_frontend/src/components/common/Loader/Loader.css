@@ -1,0 +1,12 @@
+.loaderCon {
+  height: 100vh;
+  /* Set full height of the viewport */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  /* Semi-transparent white background */
+}
+
+/* Add a loading spinner or animation to make it visually appealing */

@@ -1,0 +1,30 @@
+.myFormCon {
+  width: 80%;
+  /* Adjusted to cover more width for better visibility */
+  margin: auto;
+  padding: 20px;
+  border: 2px solid #3e50b5;
+  /* Added border with a color */
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Added a subtle box shadow */
+  margin-top: 3%;
+}
+
+.formSubConBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.MuiInputBase-root.selectField,
+.MuiTextField-root.commonField {
+  margin-bottom: 20px;
+  /* Increased margin for better spacing */
+}
+
+@media only screen and (max-width: 1000px) {
+  .myFormCon {
+    width: 90%;
+    /* Adjusted for smaller screens */
+  }
+}
