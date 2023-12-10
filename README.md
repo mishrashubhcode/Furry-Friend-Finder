@@ -36,10 +36,10 @@ Make sure you have the following installed on your machine:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/furry-friend-finders-frontend.git
+git clone https://github.com/your-username/furry-friend-finder.git
 
 # Navigate to the project directory
-cd furry-friend-finders-frontend
+cd furry-friend-finder
 
 # Install dependencies
 npm install
